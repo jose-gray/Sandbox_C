@@ -6,10 +6,10 @@ This is a simple test runner example for running tests on math operations implem
 
 1. Compile:
 ```
-    gcc -o build/program tests.c maths.c
+gcc main.c maths.c tests.c -o build/program
 ```
 2. Execute:
 ```
-    ./build/program
+./build/program
 ```
 
